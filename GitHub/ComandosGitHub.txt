@@ -1,0 +1,41 @@
+ls: lista todo lo que hay donde estoy ubicado 
+clear: limpia el comando
+pwd: te indica en el lugar en el que te encuentras
+cd: cambio de directorio
+rm -Rf: elimina la carpeta y todo el contenido adentro, utilizar con precaución borra todo
+mkdir: para crear un carpeta
+touch: crea un documento
+ls -l: lista más detallada - excluye ocultos
+ls -la: lista que muestra todo los documentos
+nano: editar un documento
+^: significa control 
+cd ..: te devuelve al directorio
+cp: copiar
+mv: mover
+cat: revisar el contenido documento txt
+cat >: operador de redirección, reemplaza el contenido de uno a otro 
+grep: busqueda 
+grep -i: no hace distincion entre Mayus o minuscula
+grep -r: busqueda de la palabra en todas las carpetas
+*. : todos los archivos "txt"
+echo: es un llamado a la carpeta
+
+cuando una lista comienza con las siguientes letras significa que son:
+d: directorio
+-: archivo
+  luego aparecen 3 letras:
+   rwx r: read
+       w: write
+       x: execute
+  la 3 primeras son para el dueño
+
+Dueño 	Grupo del dueño   Cualquier usuario	
+RWX	RWX		  RWX	
+
+GITHUB 
+
+git add --> agregar un versionamiento
+git commit -m "mensaje" --> subir localmente
+git push --> subir los archivos
+git checkout
+git pull acostumbrarse a traer los cambios
